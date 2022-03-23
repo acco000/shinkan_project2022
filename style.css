@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0; /*全要素のマージン・パディングをリセット*/
+  overscroll-behavior: none;
+  font-family: 'Hiragino Kaku Gothic ProN';
+}
+header {
+  color: #0e37a6;
+  font-size: 50px;
+  background-color: #ebebeb;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 20px;
+}
+header > img {
+  width: 127px;
+}
+.sub-header {
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 20px;
+}
+.sub-header > img {
+  width: 216px;
+}
+
+article {
+  text-align: center;
+  padding: 10px;
+}
+article > p {
+  font-size: 23px;
+  padding: 5px;
+  text-align: left;
+}
+.line {
+  /* border: double 10px; */
+  border-bottom: double 15px #6c6b6b;
+}
+.line2 {
+  border-top: 3px solid #4e4c4c;
+  padding: 10px;
+}
+footer {
+  background: #2e2e2e;
+  color: white;
+  font-size: 10px;
+  padding: 12px;
+}
+.pic {
+  margin-top: 10px;
+  width: 100%;
+  object-fit: cover;
+}
+.map {
+  width: 100%;
+}
